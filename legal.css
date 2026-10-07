@@ -1,0 +1,30 @@
+/* Shared legal-page typography and scoped contact/navigation additions. */
+.herbavita-brand{color:var(--forest);text-decoration:none;line-height:1}
+.herbavita-brand>span{display:grid;gap:.15rem;font-family:"Playfair Display",Georgia,serif;font-size:1.5rem;font-weight:600}
+.herbavita-brand>span>span{font-family:"DM Sans",sans-serif;font-size:.7rem;font-weight:700;letter-spacing:.15em;text-transform:uppercase}
+.herbavita-brand small{font-family:"DM Sans",sans-serif;font-size:.55rem;font-weight:500;letter-spacing:0;line-height:1.4}
+.business-intro{color:var(--forest);font-size:.85rem;font-weight:700;letter-spacing:.04em;margin-bottom:1rem}
+.herbavita-brand:focus-visible{outline:2px solid var(--forest);outline-offset:4px}
+@media(max-width:520px){.herbavita-brand>span{font-size:1.25rem}.herbavita-brand>span>span{font-size:.6rem}.herbavita-brand small{font-size:.5rem}}
+.legal-main{max-width:860px;margin:0 auto;padding:3rem 1.25rem 4rem;line-height:1.75}
+.legal-main h1{font-size:clamp(2.4rem,6vw,4rem);line-height:1.15;margin-bottom:1rem}
+.legal-main h2{font-family:"DM Sans",sans-serif;font-size:1.2rem;font-weight:700;letter-spacing:0;line-height:1.4;margin:2rem 0 .75rem;text-wrap:wrap}
+.legal-main p+p{margin-top:.75rem}
+.legal-main ul{padding-left:1.5rem}
+.legal-main li+li{margin-top:.5rem}
+.legal-main a,.footer-links a,.footer-contact a{color:var(--ink);text-underline-offset:3px}
+.legal-updated{font-size:.85rem;color:var(--ink);margin-bottom:1.5rem}
+.legal-contact{padding:1.25rem;border:1px solid var(--line);border-radius:12px;background:var(--white)}
+.legal-contact dl{margin:0}
+.legal-contact dt{font-weight:700;margin-top:.75rem}
+.legal-contact dt:first-child{margin-top:0}
+.legal-contact dd{margin:0;overflow-wrap:anywhere}
+.footer-contact address{font-style:normal}
+.footer-contact p{margin-top:.75rem}
+.footer-links{display:flex;flex-wrap:wrap;gap:.75rem 1.25rem;margin-top:1rem}
+.legal-main a:focus-visible,.footer-links a:focus-visible,.footer-contact a:focus-visible,.form-legal-note a:focus-visible{outline:2px solid var(--forest);outline-offset:4px}
+.form-legal-note{font-size:.75rem;line-height:1.6;color:var(--paper)}
+.form-legal-note a{color:var(--paper);text-underline-offset:3px}
+.form-legal-note a:focus-visible{outline-color:var(--sage)}
+.legal-page .site-header nav a{display:inline-flex}
+@media(max-width:520px){.legal-main{padding-top:2rem}.legal-page .site-header nav{font-size:.75rem}}

@@ -1,0 +1,28 @@
+/* Styles only for the newly requested media. Original theme files unchanged. */
+.testimonial-card{position:relative}
+.media-source-tag{position:absolute;top:8px;left:8px;right:8px;z-index:1;padding:6px 8px;border-radius:8px;background:rgba(255,253,248,.96);color:var(--ink);font:600 .6rem "DM Sans",sans-serif;line-height:1.4;pointer-events:none}
+.product-details-intro-update{grid-template-columns:minmax(0,.85fr) minmax(0,1.15fr);gap:6vw;align-items:center}
+.composition-photo-update{margin:0;width:100%}
+.composition-photo-update img{display:block;width:100%;max-width:460px;height:auto;border-radius:18px}
+.product-details-intro-copy p{margin-top:1.4rem;max-width:560px}
+.product-details-grid .fine-print .text-link{margin-top:0}
+.product-video-update{display:grid;grid-template-columns:minmax(0,.8fr) minmax(0,1.2fr);gap:2rem;align-items:center;margin-top:2.5rem;padding:1.7rem 1.8rem;border:1px solid var(--line);border-radius:18px;background:var(--paper)}
+.product-video-frame{margin:0;text-align:center}
+.product-video-update video{display:block;width:min(100%,270px);height:auto;max-height:480px;aspect-ratio:9/16;object-fit:contain;margin-inline:auto;border-radius:16px;background:var(--ink)}
+.product-video-frame .testimonial-hint{margin-top:1rem}
+.product-video-copy{padding:0;border:0;border-radius:0;background:transparent}
+.product-video-copy .section-label{margin-bottom:1rem}
+.product-video-copy .text-link{margin-top:1.5rem}
+.product-video-copy .fine-print{margin-top:1.5rem}
+.product-video-copy>p{font-size:.85rem;line-height:1.6;color:var(--muted)}
+.purchase-faq-update{margin-top:2.5rem;border:1px solid var(--line);border-radius:18px;background:var(--paper);padding:1.7rem 1.8rem}
+.purchase-faq-update h3{font-size:1rem;margin:0 0 1rem}
+.purchase-faq-update details{border-top:1px solid var(--line);padding:1rem 0}
+.purchase-faq-update details:last-child{padding-bottom:0}
+.purchase-faq-update summary{cursor:pointer;font-size:.85rem;font-weight:600;line-height:1.5}
+.purchase-faq-update details p{font-size:.82rem;color:var(--muted);line-height:1.6;margin: .8rem 0 0;max-width:760px}
+.purchase-faq-update summary:focus-visible{outline:2px solid var(--forest);outline-offset:5px}
+.order-whatsapp-fallback{margin-top:1rem}
+.order-whatsapp-fallback[hidden]{display:none}
+@media(max-width:900px){.product-video-update{grid-template-columns:1fr;gap:1.8rem}.product-details-intro-update{grid-template-columns:1fr;gap:2rem}.composition-photo-update img{max-width:360px;margin-inline:auto}}
+@media(max-width:520px){.product-video-update{padding:1.35rem}.product-video-update video{width:min(100%,236.25px);max-height:420px}.product-video-copy .text-link{font-size:.75rem}}
